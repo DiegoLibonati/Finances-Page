@@ -41,3 +41,8 @@ I made a website about finances, but basically what I did was to take a design f
 `https://diegolibonati.github.io/DiegoLibonatiWeb/#/projects?q=Finances%20page`
 
 ## Video
+
+
+
+https://user-images.githubusercontent.com/99032604/199860006-69edf7fb-3237-469e-a56e-ef008790caea.mp4
+
