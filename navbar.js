@@ -1,51 +1,38 @@
-const navLinks = document.querySelectorAll(".nav-link")
-const header = document.getElementById("navbar")
-const allSections = document.querySelectorAll("section")
-const navbar = document.getElementById("navbarNav")
+const navLinks = document.querySelectorAll(".nav-link");
+const header = document.getElementById("navbar");
+const allSections = document.querySelectorAll("section");
+const navbar = document.getElementById("navbarNav");
 
 const activeLink = (e) => {
+  e.preventDefault();
 
-    e.preventDefault()
+  navbar.classList.remove("show");
+  const elementClicked = e.currentTarget;
+  const sectionClicked = e.currentTarget.href.substring(
+    e.currentTarget.href.indexOf("#") + 1
+  );
 
-    navbar.classList.remove("show")
-    const elementClicked = e.currentTarget
-    const sectionClicked = e.currentTarget.href.substring(e.currentTarget.href.indexOf("#") + 1)
+  const headerHeight = header.offsetHeight;
 
-    const headerHeight = header.offsetHeight;
+  allSections.forEach(function (section) {
+    if (section.id == sectionClicked) {
+      const pos = section.offsetTop - headerHeight;
 
-    allSections.forEach(function(section){
-        
-        if (section.id == sectionClicked){
+      document.body.scrollTo({
+        left: 0,
+        top: pos,
+      });
+    }
+  });
+  navLinks.forEach(function (navLink) {
+    if (navLink != elementClicked) {
+      navLink.classList.remove("active");
+    }
+  });
 
-            const pos = section.offsetTop - headerHeight
+  elementClicked.classList.add("active");
+};
 
-            document.body.scrollTo({
-                left:0, top:pos,
-            })
-        
-        }
-
-    })
-    navLinks.forEach(function(navLink){
-
-        if (navLink != elementClicked){
-            navLink.classList.remove("active")
-        }
-
-    })
-
-    elementClicked.classList.add("active")
-
-}
-
-const scrollHeight =  (sectionClicked) => {
-
-
-
-}
-
-navLinks.forEach(function(navLink){
-
-    navLink.addEventListener("click", activeLink)
-
-})
+navLinks.forEach(function (navLink) {
+  navLink.addEventListener("click", activeLink);
+});

@@ -2,23 +2,17 @@ const sections = document.querySelectorAll("section");
 const svgs = document.querySelectorAll("svg");
 
 const loadContent = (entrys, observer) => {
-
-    entrys.forEach(function(entry){
-
-        if (entry.isIntersecting){
-            entry.target.classList.add("showSection");
-        }
-
-    });
-    
-}
+  entrys.forEach(function (entry) {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("showSection");
+    }
+  });
+};
 
 const observer = new IntersectionObserver(loadContent, {
-
-    root: null,
-    rootMargin: `0px 0px 0px 0px`,
-    thereshold: 1.0
-
+  root: null,
+  rootMargin: `0px 0px 0px 0px`,
+  thereshold: 1.0,
 });
 
 observer.observe(sections[0]);
