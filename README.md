@@ -38,7 +38,7 @@ I made a website about finances, but basically what I did was to take a design f
 
 ## Portfolio Link
 
-`https://diegolibonati.github.io/DiegoLibonatiWeb/#/projects?q=Finances%20page`
+`https://diegolibonati.github.io/DiegoLibonatiWeb/#/projects?q=Finances%20Page`
 
 ## Video
 
