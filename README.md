@@ -24,21 +24,9 @@ I made a website about finances, but basically what I did was to take a design f
 3. Javascript
 4. HTML5
 
-## Galery
-
-![finances-page](https://raw.githubusercontent.com/DiegoLibonati/DiegoLibonatiWeb/main/data/projects/Bootstrap/Imagenes/financespagebt/financespagebt.jpg)
-
-![finances-page](https://raw.githubusercontent.com/DiegoLibonati/DiegoLibonatiWeb/main/data/projects/Bootstrap/Imagenes/financespagebt/financespagebt-1.jpg)
-
-![finances-page](https://raw.githubusercontent.com/DiegoLibonati/DiegoLibonatiWeb/main/data/projects/Bootstrap/Imagenes/financespagebt/financespagebt-2.jpg)
-
-![finances-page](https://raw.githubusercontent.com/DiegoLibonati/DiegoLibonatiWeb/main/data/projects/Bootstrap/Imagenes/financespagebt/financespagebt-3.jpg)
-
-![finances-page](https://raw.githubusercontent.com/DiegoLibonati/DiegoLibonatiWeb/main/data/projects/Bootstrap/Imagenes/financespagebt/financespagebt-4.jpg)
-
 ## Portfolio Link
 
-`https://diegolibonati.github.io/DiegoLibonatiWeb/#/projects?q=Finances%20Page`
+[`https://www.diegolibonati.com.ar/#/project/18`](https://www.diegolibonati.com.ar/#/project/18)
 
 ## Video
 
