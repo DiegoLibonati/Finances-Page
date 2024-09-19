@@ -33,7 +33,7 @@ I made a website about finances, but basically what I did was to take a design f
 
 ## Portfolio Link
 
-[`https://www.diegolibonati.com.ar/#/project/18`](https://www.diegolibonati.com.ar/#/project/18)
+[`https://www.diegolibonati.com.ar/#/project/Finances-Page`](https://www.diegolibonati.com.ar/#/project/Finances-Page)
 
 ## Video
 
