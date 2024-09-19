@@ -1,4 +1,4 @@
-# Finances-Page
+# Finances Page
 
 ## Getting Started
 
